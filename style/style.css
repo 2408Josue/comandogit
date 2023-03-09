@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-image: url("https://fondosmil.com/fondo/35152.jpg");
+    height:100vh ;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Helvetica;
+}
+nav{
+    background-color:rgba(196, 136, 153, 0.212)
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: tomato;
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgb(231, 231, 231);
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border:0 ;
+    padding: 10px;
+    font-size: 18px;
+    margin:5px ;
+    background-color: rgba(22, 66, 110, 0.6);
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+#textareas{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(22,  66, 110, 0.4);
+    color: white;
+}
+button[type="submit"]{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+    background-color: rgba(22, 66, 110, 0.9);
+}
+
