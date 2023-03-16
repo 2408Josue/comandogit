@@ -1,23 +1,23 @@
 # comandogit
 ##consulta 30 etiquetas de html
 
-- body para el contenido
-- div división dentro del contenido
-- a para enlaces
-- strong para poner el texto en negrita
-- br para saltos de línea
-- H1 para títulos dentro del contenido
-- H2 para títulos dentro del contenido
-- H3 para títulos dentro del contenido
-- H4 para títulos dentro del contenido
-- H5 para títulos dentro del contenido
-- H6 para títulos dentro del contenido
-- img para añadir imágenes al documento
-- ol para listas ordenadas 
-- ul para listas desordenadas
-- li para elementos dentro de la lista
-- p para parágarfot
-- span para estilos de una parte del texto
+- "body" para el contenido
+- "div" división dentro del contenido
+- "a2 para enlaces
+- "strong" para poner el texto en negrita
+- "br" para saltos de línea
+- "H1" para títulos dentro del contenido
+- "H2" para títulos dentro del contenido
+- "H3" para títulos dentro del contenido
+- "H4" para títulos dentro del contenido
+- "H5" para títulos dentro del contenido
+- "H6" para títulos dentro del contenido
+- "img" para añadir imágenes al documento
+- "ol" para listas ordenadas 
+- "ul" para listas desordenadas
+- "li" para elementos dentro de la lista
+- "p" para parágarfot
+- "span" para estilos de una parte del texto
 - hr Etiqueta utilizada para «romper» entre dos secciones de una web. Usada comúnmente como separador
 - cite Para indicar el título de una obra
 - br Etiqueta utilizada para crear un salto de línea
