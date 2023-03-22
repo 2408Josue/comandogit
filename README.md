@@ -3,7 +3,7 @@
 
 - "body" para el contenido
 - "div" división dentro del contenido
-- "a2 para enlaces
+- "a2" para enlaces
 - "strong" para poner el texto en negrita
 - "br" para saltos de línea
 - "H1" para títulos dentro del contenido
@@ -70,5 +70,9 @@ Esta propiedad es útil cuando se gira un elemento. Te permite elegir si el usua
 ##Consulta que es Display block, inline e inline-block
 
 Display block: hace que el comportamiento del elemento sea como un bloque
+
 inline: el elemento se renderizará en línea con otros elementos. Cuando un elemento inline se encuentra entre dos elementos block, el elemento inline se comporta como un block anónimo, de mínima anchura
-inline-block:
+
+inline-block:fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales
+
+##
