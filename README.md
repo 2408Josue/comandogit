@@ -1,5 +1,5 @@
 # comandogit
-##consulta 30 etiquetas de html
+##1.consulta 30 etiquetas de html
 
 - "body" para el contenido
 - "div" división dentro del contenido
@@ -33,7 +33,7 @@
 - tr Se usa para indicar una fila de celdas de una tabla
 - td Usada para definir una celda de una tabla
 
-##consulta 30 estilos CSS
+##2.consulta 30 estilos CSS
  
 - "align-content"	Especifica la alineación predeterminada de los elementos dentro del contenedor flexible cuando dichos elementos ocupan más de una linea
 - "align-items"	Especifica la alineación predeterminada de los elementos dentro del contenedor flexible cuando dichos elementos ocupan una sola linea
@@ -67,7 +67,7 @@ Esta propiedad es útil cuando se gira un elemento. Te permite elegir si el usua
 - "border-spacing"	Establece la distancia entre los bordes de las celdas adyacentes
 - "border-style"	Establece el estilo de los cuatro bordes de un elemento. Esta propiedad puede tener de uno a cuatro valores
 
-##Consulta que es Display block, inline e inline-block
+##3.Consulta que es Display block, inline e inline-block
 
 Display block: hace que el comportamiento del elemento sea como un bloque
 
@@ -75,4 +75,18 @@ inline: el elemento se renderizará en línea con otros elementos. Cuando un ele
 
 inline-block:fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales
 
-##
+##4.Mencionar en la consulta anterior de las etiquetas cuales son etiquetas block, inline e inline-block
+
+Etiquetas block:
+
+-div
+-h1
+-p
+-center
+
+Etiquetas inline
+
+-
+-
+-
+-
