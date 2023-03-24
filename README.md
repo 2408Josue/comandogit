@@ -77,16 +77,27 @@ inline-block:fluyen con el texto y demás elementos como si fueran elementos en-
 
 ##4.Mencionar en la consulta anterior de las etiquetas cuales son etiquetas block, inline e inline-block
 
-Etiquetas block:
+###Etiquetas block:
 
 -div
 -h1
 -p
 -center
 
-Etiquetas inline
+###Etiquetas inline
 
--
--
--
--
+-textarea
+-input
+-label
+-select
+
+###Etiquetas inline-block
+
+-button
+-iframe
+-map
+-object
+
+##5.Consultar cuales son los eventos en JavaScript.
+
+
