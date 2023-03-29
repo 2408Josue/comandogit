@@ -1,4 +1,4 @@
-let pdv, mdv, placa, tdv, fecha, hora, cantidad;
+let Propietario, Modelo, Placa, tipo, fecha, hora, cantidad;
 
 let formulario = document.getElementById('form')
 
@@ -9,18 +9,18 @@ formulario.addEventListener('submit',(e)=>{
 })
 
 function LeerData() {
-    pdv = document.getElementById('pdv').value;
-    mdv = document.getElementById('mdv').value;
-    placa = document.getElementById('placa').value;
-    tdv = document.getElementById('tdv').value;
-    fecha = document.getElementById('fecha').value;
+    Propietario = document.getElementById('Propietario').value;
+    Modelo = document.getElementById('Modelo').value;
+    Placa = document.getElementById('Placa').value;
+    tipo = document.getElementById('tipo').value;
     hora = document.getElementById('hora').value;
+    fecha = document.getElementById('Fecha').value;
     cantidad = document.getElementById('cantidad').value;
-    ValidarData(pdv, mdv, placa, tdv, fecha, hora, cantidad)
-    GuardarLocalStore(pdv, mdv, placa, tdv, fecha, hora, cantidad)
+    ValidarData(Propietario, Modelo, Placa, tipo, fecha, hora, cantidad)
+    GuardarLocalStore(Propietario, Modelo, Placa, tipo, fecha, hora, cantidad)
 }
-function ValidarData(pdv, mdv, placa, tdv, fecha, hora, cantidad) {
-    if(pdv.length==0 || mdv.length==0 || placa.length==0 || tdv.length==0 || fecha.length==0 || hora.length==0 || cantidad.length==0){
+function ValidarData(Propietario, Modelo, Placa, tipo, fecha, hora, cantidad) {
+    if(Propietario.length==0 || Modelo.length==0 || Placa.length==0 || tipo.length==0 || fecha.length==0 || hora.length==0 || cantidad.length==0){
         Swal.fire(
             'The Internet?',
             'That thing is still around?',
@@ -29,11 +29,11 @@ function ValidarData(pdv, mdv, placa, tdv, fecha, hora, cantidad) {
     }
 }
 
-function GuardarLocalStore(pdv, mdv, placa, tdv, fecha, hora, cantidad) {
-    localStorage.setItem('pdv',pdv )
-    localStorage.setItem('mdv',mdv )
-    localStorage.setItem('placa',placa )
-    localStorage.setItem('tdv',tdv )
+function GuardarLocalStore(Propietario, Modelo, Placa, tipo, fecha, hora, cantidad) {
+    localStorage.setItem('Propietario',Propietario )
+    localStorage.setItem('Modelo',Modelo )
+    localStorage.setItem('Placa',Placa )
+    localStorage.setItem('tipo',tipo )
     localStorage.setItem('fecha',fecha )
     localStorage.setItem('hora',hora )
     localStorage.setItem('cantidad',cantidad )
@@ -42,10 +42,10 @@ function GuardarLocalStore(pdv, mdv, placa, tdv, fecha, hora, cantidad) {
 
 
 function ListaData(){
-    let pdvUsu = localStorage.getItem('pdv')
-    let mdvUsu = localStorage.getItem('mdv')
-    let placaUsu = localStorage.getItem('placa')
-    let tdvUsu = localStorage.getItem('tdv')
+    let PropietarioUsu = localStorage.getItem('Propietario')
+    let ModeloUsu = localStorage.getItem('Modelo')
+    let PlacaUsu = localStorage.getItem('placa')
+    let tipoUsu = localStorage.getItem('tipo')
     let fechaUsu = localStorage.getItem('fecha')
     let horaUsu = localStorage.getItem('hora')
     let cantidadUsu = localStorage.getItem('cantidad')
